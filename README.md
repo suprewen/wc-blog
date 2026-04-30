@@ -37,5 +37,5 @@ Cloudflare Pages settings:
 After the GitHub repo exists and Issues are enabled, set this environment variable to enable comments:
 
 ```sh
-PUBLIC_UTTERANCES_REPO=OWNER/wc-blog
+PUBLIC_UTTERANCES_REPO=OWNER/notesbywenchao
 ```
