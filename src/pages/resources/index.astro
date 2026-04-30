@@ -1,0 +1,52 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`Resources | ${SITE_TITLE}`} description="Useful free resources for building and maintaining a personal blog." />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Resources</h1>
+			<p>A curated starter list of free resources useful for this blog.</p>
+
+			<h2>Core stack</h2>
+			<ul>
+				<li><a href="https://github.com/">GitHub</a> — source code, issues, discussions, Actions.</li>
+				<li><a href="https://pages.cloudflare.com/">Cloudflare Pages</a> — static hosting and preview deployments.</li>
+				<li><a href="https://www.netlify.com/">Netlify</a> — static hosting alternative.</li>
+				<li><a href="https://kinsta.com/static-site-hosting/">Kinsta Static Site Hosting</a> — static hosting alternative.</li>
+			</ul>
+
+			<h2>DNS and domain</h2>
+			<ul>
+				<li><a href="https://www.cloudflare.com/">Cloudflare DNS</a> — DNS, SSL, CDN, analytics.</li>
+				<li><a href="https://desec.io/">deSEC</a> — free DNS hosting with API support.</li>
+				<li><a href="https://www.hetzner.com/dns-console">Hetzner DNS</a> — free DNS hosting.</li>
+			</ul>
+
+			<h2>Search, comments, analytics</h2>
+			<ul>
+				<li><a href="https://pagefind.app/">Pagefind</a> — static site search, no hosted service required.</li>
+				<li><a href="https://www.algolia.com/">Algolia</a> — hosted search with a useful free tier.</li>
+				<li><a href="https://utteranc.es/">Utterances</a> — comments powered by GitHub Issues.</li>
+				<li><a href="https://counter.dev/">counter.dev</a> — lightweight privacy-friendly analytics.</li>
+				<li><a href="https://www.cloudflare.com/web-analytics/">Cloudflare Web Analytics</a> — free analytics without cookies.</li>
+			</ul>
+
+			<h2>Forms and newsletter</h2>
+			<ul>
+				<li><a href="https://formspree.io/">Formspree</a> — contact forms.</li>
+				<li><a href="https://formcarry.com/">Formcarry</a> — form backend.</li>
+				<li><a href="https://buttondown.email/">Buttondown</a> — newsletter, free for small lists.</li>
+			</ul>
+		</main>
+		<Footer />
+	</body>
+</html>

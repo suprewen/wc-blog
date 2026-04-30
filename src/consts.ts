@@ -1,5 +1,4 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
-
-export const SITE_TITLE = 'Astro Blog';
-export const SITE_DESCRIPTION = 'Welcome to my website!';
+// Global site metadata.
+export const SITE_TITLE = 'wc notes';
+export const SITE_DESCRIPTION = 'Notes on technology, AI, tools, and personal knowledge systems.';
+export const SITE_URL = 'https://wc-blog.pages.dev';
