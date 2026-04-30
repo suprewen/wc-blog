@@ -1,4 +1,4 @@
-# wc notes
+# Notes by Wenchao
 
 Personal blog and public notebook built with Astro.
 

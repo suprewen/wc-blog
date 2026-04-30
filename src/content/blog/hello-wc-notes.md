@@ -1,10 +1,10 @@
 ---
-title: 'Hello, wc notes'
+title: 'Hello, Notes by Wenchao'
 description: 'The first note and a quick explanation of what this site is for.'
 pubDate: '2026-04-30'
 ---
 
-This is the first post on **wc notes**.
+This is the first post on **Notes by Wenchao**.
 
 The goal of this site is simple:
 
